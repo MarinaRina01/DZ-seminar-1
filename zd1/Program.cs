@@ -10,8 +10,8 @@ Console.WriteLine("Введите число 2");
 string TwoNum = Console.ReadLine();
 int Two = Convert.ToInt32(TwoNum);
 if (One > Two) {
-    Console.WriteLine($"Большее число равно: {One}");
+    Console.WriteLine($"Большее число равно {One}, а меньшее {Two}");
 } 
 else {
-    Console.WriteLine($"Большее число равно: {Two}");
+    Console.WriteLine($"Большее число равно {Two}, а меньшее {One}");
 }
